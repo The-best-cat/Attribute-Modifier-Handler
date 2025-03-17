@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "attribute_modifier_handler_mod",
+	"version": "${version}",
+	"name": "AttributeModifierHandlerMod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/attribute_modifier_handler_mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.noah.attribute_modifier_handler_mod.AttributeModifierHandlerMod"
+		],
+		"fabric-datagen": [
+			"net.noah.attribute_modifier_handler_mod.AttributeModifierHandlerModDataGenerator"
+		]
+	},
+	"mixins": [
+		"attribute_modifier_handler_mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.3",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
