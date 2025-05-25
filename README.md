@@ -1,2 +1,2 @@
-A tool that allows you to set a timer to an attribute modifier. Once the timer runs out, the modifier will be automatically removed.
+A tool that allows you to set a timer to an attribute modifier. Once the timer expires, the modifier will be automatically removed.
 Still figuring out how to make this a dependency...
